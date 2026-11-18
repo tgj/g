@@ -20,7 +20,7 @@
 > 
 > `0` yields `Disabled` for the `Fullscreen` setting in-game. Small numbers = low resolutions, greater numbers = higher resolutions; hence, the greatest possible number is @ highest resolution and max fps.  `r_vidMode` is the count from `Disabled` to this setting. So if the mode you counted is `48` slots away, that's what you ought to set `r_vidMode` equal to!
 
-### Parameters
+### `autoexec.cfg` Parameters
 
 | jure                  | facto                             |
 | ----------------------| --------------------------------- |
