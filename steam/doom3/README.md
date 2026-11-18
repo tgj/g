@@ -1,11 +1,11 @@
-# DOOM 3: BFG Edition [Steam]
+# DOOM 3: BFG Edition
 
 <!-- ### Contents -->
 
 ### Resources
 - [PC Gaming Wiki](https://www.pcgamingwiki.com/wiki/Doom_3)
 - [Locker Codes](https://doomwiki.org/wiki/Doom_3_locker_codes)
-- [[PICTURE GUIDE]: All PDAs, Locker/Codes & Video Logs](https://steamcommunity.com/sharedfiles/filedetails/?id=648937694)
+- [All PDAs, Locker/Codes & Video Logs](https://steamcommunity.com/sharedfiles/filedetails/?id=648937694)
 
 ### Steps
 1. Copy `autoexec.cfg` to `C:\Program Files (x86)\Steam\steamapps\common\DOOM 3 BFG Edition\base`
