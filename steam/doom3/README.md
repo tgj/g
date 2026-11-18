@@ -18,19 +18,19 @@
 > 1. Maps directly to a single in-game setting: `Fullscreen`
 > 1. Default game resolution is 720p, I'm sure you want better...
 > 
-> `0` yields `Disabled` for the `Fullscreen` setting. Small numbers = low resolutions, greater numbers = higher resolutions; hence, the greatest possible number is @ highest resolution and max fps.  `r_vidMode` is the count from `Disabled` to this setting. So if the mode you counted is `48` slots away, that's what you ought to set `r_vidMode` equal to!
+> `0` yields `Disabled` for the `Fullscreen` setting in-game. Small numbers = low resolutions, greater numbers = higher resolutions; hence, the greatest possible number is @ highest resolution and max fps.  `r_vidMode` is the count from `Disabled` to this setting. So if the mode you counted is `48` slots away, that's what you ought to set `r_vidMode` equal to!
 
 ### Parameters
 
 | jure                  | facto                             |
 | ----------------------| --------------------------------- |
-| `com_allowconsole`    | developer menu                    |
-| `com_skipIntroVideos` | skip intro videos                 | 
-| `r_vidMode`           | monitor selection, res, and FPS   | 
-| `com_engineHz`        | game FPS                          |
-| `g_fov`               | multiplayer fov                   |
-| `in_toggleCrouch`     | toggle crouch (hold is default)   |
-| `in_toggleZoom`       | toggle ads (none is default)      |
-| `_zoom`               | param to bind toggle ads to       |
-| Remove Head Bobbing   |                                   |
-| Video Optimizations   |                                   |
+| `com_allowconsole`    | Developer menu                    |
+| `com_skipIntroVideos` | Skip intro videos                 | 
+| `r_vidMode`           | Monitor selection, res, and FPS   | 
+| `com_engineHz`        | Game FPS                          |
+| `g_fov`               | Multiplayer FOV                   |
+| `in_toggleCrouch`     | Toggle crouch (hold is default)   |
+| `in_toggleZoom`       | Toggle ADS (none is default)      |
+| `_zoom`               | Param to bind toggle ads to       |
+|                       | Remove Head Bobbing               |
+|                       | Video Optimizations               |
