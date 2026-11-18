@@ -8,7 +8,7 @@
 - [[PICTURE GUIDE]: All PDAs, Locker/Codes & Video Logs](https://steamcommunity.com/sharedfiles/filedetails/?id=648937694)
 
 ### Steps
-1. Copy `autoexec.cfg` to `C:\Program Files (x86)\Steam\steamapps\common\DOOM 3 BFG Edition\base`.
+1. Copy `autoexec.cfg` to `C:\Program Files (x86)\Steam\steamapps\common\DOOM 3 BFG Edition\base`
 1. Be sure to adjust `r_vidMode` to highest resolution and FPS.
 
 ### Parameters
