@@ -12,6 +12,14 @@
 1. Be sure to adjust `r_vidMode` to highest resolution and FPS.
 1. If console is enabled, certain commands may disable achievements.
 
+> How to adjust `r_vidMode`:
+> 
+> _Why?_ 
+> 1. Avoid changing multiple settings related to video output with one setting
+> 1. Default game resolution is 720p, I'm sure you want better...
+> 
+> `0` yields `Disabled` for the Fullscreen setting in-game. Small numbers = low resolutions, greater numbers = higher resolutions; hence, the greatest possible number is @ highest resolution and max fps.  `r_vidMode` is the count from `Disabled` to this setting. So if best mode you counted is `41` slots away, that's what you ought to set it to!
+
 ### Parameters
 
 | De jure               | slang                             |
