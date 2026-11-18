@@ -8,7 +8,7 @@
 - [All PDAs, Locker/Codes & Video Logs](https://steamcommunity.com/sharedfiles/filedetails/?id=648937694)
 
 ### Notes
-1. Copy `autoexec.cfg` to `C:\Program Files (x86)\Steam\steamapps\common\DOOM 3 BFG Edition\base`
+1. Run `py config.py` (`python3 config.py` for Mac/Linux) or Copy `autoexec.cfg` to `C:\Program Files (x86)\Steam\steamapps\common\DOOM 3 BFG Edition\base`.
 1. Be sure to adjust `r_vidMode` to highest resolution and FPS.
 1. If console is enabled, certain commands may disable achievements.
 
@@ -22,7 +22,7 @@
 
 ### `autoexec.cfg` Parameters
 
-| jure                  | facto                             |
+| param                 | slang                             |
 | ----------------------| --------------------------------- |
 | `com_allowconsole`    | Developer menu                    |
 | `com_skipIntroVideos` | Skip intro videos                 | 
