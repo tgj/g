@@ -16,13 +16,16 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 DOOM3BFGBASE="C:/Program Files (x86)/Steam/steamapps/common/DOOM 3 BFG Edition/base/"
-AUTOEXECCFG="autoexec.cfg"
+AUTOEXEC="autoexec"
+CFG=".cfg"
+BFG="_bfg"
 folder_path = filedialog.askdirectory(title="Choose Folder:", initialdir=DOOM3BFGBASE)
 
 if folder_path:
+    autoexec_path = AUTOEXEC+BFG+CFG if "BFG" in folder_path else AUTOEXEC+CFG
     try:
-        with open(Path(AUTOEXECCFG), "rb") as src, open( Path(folder_path + "/" + AUTOEXECCFG), "xb") as dst:
+        with open(Path(autoexec_path), "rb") as src, open( Path(folder_path + "/" + AUTOEXEC+CFG), "xb") as dst:
             shutil.copyfileobj(src, dst)
-            logger.info("Successfully wrote " + AUTOEXECCFG + " to " + folder_path)
+            logger.info("Successfully wrote " + AUTOEXEC+CFG + " to " + folder_path)
     except FileExistsError:
-            logger.error(AUTOEXECCFG + " already exists at " + folder_path)
+            logger.error(AUTOEXEC+CFG + " already exists at " + folder_path)
