@@ -22,9 +22,8 @@ BFG="_bfg"
 folder_path = filedialog.askdirectory(title="Choose Folder:", initialdir=DOOM3BFGBASE)
 
 if folder_path:
-    autoexec_path = AUTOEXEC+BFG+CFG if "BFG" in folder_path else AUTOEXEC+CFG
     try:
-        with open(Path(autoexec_path), "rb") as src, open( Path(folder_path + "/" + AUTOEXEC+CFG), "xb") as dst:
+        with open(Path(AUTOEXEC+BFG+CFG if "BFG" in folder_path else AUTOEXEC+CFG), "rb") as src, open( Path(folder_path + "/" + AUTOEXEC+CFG), "xb") as dst:
             shutil.copyfileobj(src, dst)
             logger.info("Successfully wrote " + AUTOEXEC+CFG + " to " + folder_path)
     except FileExistsError:
