@@ -15,7 +15,7 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-DOOM3BFGBASE="C:/Program Files (x86)/Steam/steamapps/common/DOOM 3 BFG Edition/base/"
+DOOM3BFGBASE="%USERPROFILE%/Saved Games/id Software/DOOM 3 BFG/base"
 AUTOEXEC="autoexec"
 CFG=".cfg"
 BFG="_bfg"
